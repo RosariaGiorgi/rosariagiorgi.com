@@ -377,59 +377,16 @@ p {
 .hamburger-box {
     position: relative;
     display: inline-block;
-    width: 30px;
-    height: 20px;
     vertical-align: middle;
 }
 .hamburger-inner {
     display: block;
     top: 0;
 }
-.navbar-white .hamburger-inner,
-.navbar-white .hamburger-inner:after,
-.navbar-white .hamburger-inner:before {
-    background-color: #fff;
-    transition: transform .3s ease .2s, background-color .3s ease .2s, opacity .3s ease .3s;
-}
-.hamburger-inner:after,
-.hamburger-inner:before {
-    display: block;
-    content: '';
-}
-.hamburger-inner,
-.hamburger-inner:after,
-.hamburger-inner:before {
-    position: absolute;
-    width: 30px;
-    height: 3px;
-    background-color: #151515;
-    transition: all .3s ease .5s;
-}
-.hamburger-inner:before {
-    top: 8px;
-    left: -8px;
-}
-.hamburger-inner:after {
-    top: 16px;
-    width: 26px;
-}
-.hamburger.is-active .hamburger-inner,
-.hamburger.is-active .hamburger-inner:after {
-    background-color: #fff;
-    transition-delay: .1s;
-}
-.hamburger.is-active .hamburger-inner {
-    -webkit-transform: translate3d(0, 8px, 0) rotate(45deg);
-    transform: translate3d(0, 8px, 0) rotate(45deg);
-}
-.hamburger.is-active .hamburger-inner:before {
-    opacity: 0;
-    transition: opacity .3s ease 0s
-}
-.hamburger.is-active .hamburger-inner:after {
-    width: 30px;
-    -webkit-transform: translate3d(0, -16px, 0) rotate(-90deg);
-    transform: translate3d(0, -16px, 0) rotate(-90deg);
+
+
+.nodisplay{
+    display: none;
 }
 
 /* 2.3 Collapse navigation */
