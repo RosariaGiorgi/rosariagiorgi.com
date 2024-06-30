@@ -1139,6 +1139,7 @@ footer {
 .img_norepeat {
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: top center;
 }
 
 .bg_white {
