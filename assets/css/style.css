@@ -238,7 +238,7 @@ p {
   position: relative;
   display: flex;
   align-items: center;
-  width: 15em;
+  width: 17em;
   font-weight: 600;
   letter-spacing: .15em;
 }
@@ -388,7 +388,7 @@ p {
     cursor: pointer;
     padding: .75em;
     opacity: 0;
-    width: 240px;
+    width: 400px;
     margin-left: 3em;
     transition: opacity .3s ease;
 }
@@ -1134,6 +1134,17 @@ footer {
       opacity: 1;
     }
   }
+
+
+.img_norepeat {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bg_white {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 @media only screen and (min-width: 805px) {
     .dark_background{
