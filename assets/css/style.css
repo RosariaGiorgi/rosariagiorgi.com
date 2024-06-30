@@ -1115,7 +1115,7 @@ footer {
 }
 
 [popover] {
-    animation: fadeIn 1s ease-in;
+    animation: fadeIn 0.5s ease-in;
     background: transparent;
     border: none;
   }
