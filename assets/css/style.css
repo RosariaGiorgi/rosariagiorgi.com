@@ -1149,12 +1149,11 @@ footer {
 
 @media only screen and (min-width: 805px) {
     .dark_background{
-        background: #00000070;
+        background-color: #00000070;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-right: 10px;
         border-radius: 10px;
-        background-color: none;
     }
 
 
