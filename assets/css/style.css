@@ -15,7 +15,7 @@ body {
     background: #151515;
     padding: 0;
     margin: 0 auto;
-    min-height: 100vh;
+    min-height: 100dvh;
     font-family: 'Cormorant SC';
     font-size: 22px;
     color: #151515;
@@ -381,7 +381,7 @@ p {
     left: 0;
 }
 .ms-nav.is-visible .height-full-viewport {
-    height: 100vh;
+    height: 100dvh;
     transition: height 1s ease;
 }
 .nav-item {
@@ -474,7 +474,7 @@ p {
 .ms-main-container {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100dvh;
     opacity: 0;
     background-color: #fff;
 }
@@ -516,7 +516,7 @@ p {
 }
 .swiper-container {
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
 }
 .swiper-slide {
     overflow: hidden;
@@ -1228,7 +1228,7 @@ footer {
         width: 100%;
         text-align: center;
         min-height: 50px;
-        bottom: 10vh;
+        bottom: 10dvh;
         padding-left: 0;
         color: #fff;
         z-index: 1;
