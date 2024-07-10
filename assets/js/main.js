@@ -149,8 +149,8 @@ function HomeSlider() {
                 }
             },
             onSetTransition: function(swiper, speed) {
-                const popover = $('.swiper-slide-prev').find(".rg-popover").get( 0 );
-                popover?.hidePopover();
+                $('.swiper-slide-prev').find(".rg-popover").get( 0 )?.hidePopover();
+                $('.swiper-slide-next').find(".rg-popover").get( 0 )?.hidePopover();
 
                 for (var i = 0; i < swiper.slides.length; i++) {
                     $(swiper.slides[i])
