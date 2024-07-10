@@ -1120,12 +1120,6 @@ footer {
     border: none;
   }
 
-.swiper-slide p {
-    display: none;;
-  }
-.swiper-slide-active  p{
-    display: block;
-  }
   @keyframes fadeIn {
     from {
       opacity: 0;

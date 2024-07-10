@@ -91,6 +91,9 @@ function PageTransition() {
 function Menu() {
     if ($.exists('.hamburger')) {
         $('.hamburger').on('click', function(e) {
+            const popover = $('.swiper-slide-active').find(".rg-popover").get( 0 );
+            popover?.hidePopover();
+
             var burger = $(this),
                 clicked = parseInt(burger.data('clicked')) || 0;
             burger.data('clicked', clicked + 1);
@@ -146,6 +149,9 @@ function HomeSlider() {
                 }
             },
             onSetTransition: function(swiper, speed) {
+                const popover = $('.swiper-slide-prev').find(".rg-popover").get( 0 );
+                popover?.hidePopover();
+
                 for (var i = 0; i < swiper.slides.length; i++) {
                     $(swiper.slides[i])
                         .find('.slide-inner')
