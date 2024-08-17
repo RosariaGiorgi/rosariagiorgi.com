@@ -1,5 +1,7 @@
 {
     "rewrites": [
-      { "source": "/thelessunkind", "destination": "/TheLessUnkind" }
+      { "source": "/TheLessUnkind", "destination": "/thelessunkind" },
+      { "source": "/TheLessUnkind/curios", "destination": "/thelessunkind/curios" },
+      { "source": "/TheLessUnkind/Curios", "destination": "/thelessunkind/curios" }
     ]
   }
