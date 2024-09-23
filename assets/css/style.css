@@ -570,7 +570,7 @@ p {
 .swiper-button-prev,
 .swiper-button-next {
     text-transform: none;
-    color: #fff;
+    color: pink;
     letter-spacing: .2em;
     line-height: 2em;
     font-size: 12px;
@@ -598,7 +598,7 @@ p {
     content: "";
     width: 4em;
     height: 1px;
-    background-color: #fff;
+    background-color: pink;
     position: absolute;
     left: 0;
     top: calc(50% - 1px);
@@ -610,7 +610,7 @@ p {
     content: "";
     width: 4em;
     height: 1px;
-    background-color: #fff;
+    background-color: pink;
     position: absolute;
     right: 0;
     top: calc(50% - 1px);
