@@ -1234,6 +1234,12 @@ footer {
         user-select: none;
     }
 
+    .right-image {
+        width: 90%;
+        text-align: right;
+        display: block;
+    }
+
     .slide-inner--info p {
         margin-left: 5;
         margin-right: 5;
