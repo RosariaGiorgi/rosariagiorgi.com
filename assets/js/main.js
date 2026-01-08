@@ -42,6 +42,10 @@ function PageTransition() {
     easing: "easeInOutCubic",
     complete: function (preload) {
       $(".ms-preloader").css("visibility", "hidden");
+      const popover = $(".swiper-slide-active")
+              .find(".rg-popover")
+              .get(0);
+            popover?.hidePopover();
     },
   });
   $(".ms-main-container").addClass("loaded");
@@ -64,7 +68,7 @@ function PageTransition() {
       var description = anime({
           targets: ".rg-popover",
           opacity: [0, 1],
-          duration: 2000,
+          duration: 1000,
           easing: "easeInOutCubic",
           complete: function (preload) {
             const popover = $(".swiper-slide-active")
@@ -177,7 +181,7 @@ function HomeSlider() {
         var description = anime({
           targets: ".rg-popover",
           opacity: [0, 1],
-          duration: 2000,
+          duration: 2500,
           easing: "easeInOutCubic",
           complete: function (preload) {
             const popover = $(".swiper-slide-active")
