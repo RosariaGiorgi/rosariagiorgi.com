@@ -64,7 +64,7 @@ function PageTransition() {
       var description = anime({
           targets: ".rg-popover",
           opacity: [0, 1],
-          duration: 1000,
+          duration: 2000,
           easing: "easeInOutCubic",
           complete: function (preload) {
             const popover = $(".swiper-slide-active")
